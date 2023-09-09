@@ -1,0 +1,82 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  z-index: 1;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form input,
+.signup-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.submission-message {
+  margin-top: 20px;
+  text-align: center;
+}
+/* tableStyles.css */
+.tasks-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tasks-table th,
+.tasks-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.tasks-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tasks-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.tasks-table tbody tr:hover {
+  background-color: #e6e6e6;
+}
+
+.delete-button {
+  background-color: #ff5252;
+  color: white;
+}
+
